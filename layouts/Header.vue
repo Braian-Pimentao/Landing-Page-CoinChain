@@ -8,10 +8,10 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-black is-rounded is-outlined">
-            <strong class="has-text-white">Registrarse</strong>
-          </a>
           <a class="button is-light is-rounded is-outlined">
+            <strong>Registrarse</strong>
+          </a>
+          <a class="button is-primary is-rounded is-outlined">
             Iniciar Sesión
           </a>
         </div>

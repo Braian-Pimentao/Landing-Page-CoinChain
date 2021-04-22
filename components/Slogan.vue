@@ -5,6 +5,9 @@
             <h1 class="title is-1 has-text-white "> Descubre ChainCoin</h1>
             <h2 class="title is-2 has-text-white"> Una criptomoneda desarrollada por ChainGo.</h2>
             <h2 class="title is-2 has-text-white"> Versatil y totalmente segura.</h2>
+            <a class="button has-text-black is-primary is-rounded">
+            Iniciar Sesión
+          </a>
         </div>
     </div>
     <div class="column pt-5 center">

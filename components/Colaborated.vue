@@ -2,7 +2,7 @@
 <div class="p-2 has-background-white ">
         <div class="columns ">
             <div class="column">
-                <h1 class="center title is-1">Apoyado por</h1>
+                <h1 class="center title is-1"><u>Apoyado por</u></h1>
             </div>
         </div>
         <div class="columns ">
