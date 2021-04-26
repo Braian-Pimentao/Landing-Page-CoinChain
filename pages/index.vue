@@ -1,6 +1,6 @@
 <template>
-  <div class="container is-fluid py-6">
-    <Slogan />
+  <div class="container is-fluid py-6" >
+    <Hero />
     <hr class="linea" />
     <div class="container">
       <div class="columns mb-6">
@@ -18,12 +18,12 @@
 </template>
 
 <script>
-import Slogan from '~/components/Slogan'
+import Hero from '~/components/Hero'
 import Tab from '~/components/Tab'
 import Colaborated from '~/components/Colaborated'
 export default {
   components: {
-    Slogan,
+    Hero,
     Tab,
     Colaborated
   },
