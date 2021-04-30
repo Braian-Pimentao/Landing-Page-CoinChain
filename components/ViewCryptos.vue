@@ -1,5 +1,5 @@
 <template>
-    <div class="p-2 has-background-white">
+    <div class="m-0 mt-6 p-2 has-background-white border">
         <div class="columns ">
             <div class="column">
                 <h1 class="center title is-1"><u>Visualizador de Criptomonedas</u></h1>
@@ -20,7 +20,7 @@
         </div>
 
         <div class="columns">
-            <div class="column is-full"><h3 class="center">Sistema Monetario</h3></div>
+            <div class="column is-full"><h3 class="title center">Sistema Monetario</h3></div>
         </div>
         <div class="columns">
             <div class="column" v-for="moneda in monedas" :key="moneda">
@@ -31,17 +31,7 @@
             </div>
         </div>
 
-        <!--
-        <br>
-        <span>Checked cryptos: {{ cryptosSelect }}</span>
-        <br>
-        <span>Checked monedas: {{ monedasSelect }}</span>
-
-        <br>
-        <span>Checked cryptomonedas: {{ criptomonedas }}</span>
-        -->
-
-        <table class="table">
+        <table class="table is-striped is-fullwidth">
             <thead>
                 <tr>
                     <th>Crypto</th>
@@ -71,8 +61,8 @@ export default {
     
     data(){
         return{
-            cryptosAbbr: ["BTC","ETH","ADA","UNI","LTC","BCH","XLM","ALGO"],
-            monedas: ["USD","EUR","ARS","GBP"],
+            cryptosAbbr: ["BTC","ETH","ALGO","ADA","UNI","LTC","BCH","XLM","XRP","DOGE","EOS","DAI"],
+            monedas: ["USD","EUR","ARS","GBP","JPY","CNY","INR","MXN"],
             cryptosSelect:["BTC","ETH","ALGO"],
             monedasSelect:["USD","EUR"],
             criptomonedas:[]
@@ -97,8 +87,14 @@ export default {
             var self=this;
             setInterval(function(){
                 self.actualizar();
-            },5000)
+            },10000)
         }
     }
 }
 </script>
+
+<style>
+.border{
+    border-radius: 10px;
+}
+</style>
