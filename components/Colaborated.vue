@@ -1,16 +1,16 @@
 <template>
-<div class="p-2 has-background-white ">
+<div class="p-2 has-background-white">
         <div class="columns ">
             <div class="column">
                 <h1 class="center title is-1"><u>Apoyado por</u></h1>
             </div>
         </div>
-        <div class="columns ">
+        <div class="columns">
             <div v-for="index in 6" :key="index" class="column p-4"> 
                 <img :src="links[index-1]" :alt="index">
             </div>
         </div>
-        <div class="columns ">
+        <div class="columns">
             <div v-for="index in 6" :key="index" class="column p-4"> 
                 <img :src="links[index+5]" :alt="index+5">
             </div>

@@ -1,6 +1,7 @@
 <template>
   <div class="container is-fluid py-6" >
     <Hero />
+    <ViewCryptos />
     <hr class="linea" />
     <div class="container">
       <div class="columns mb-6">
@@ -21,11 +22,13 @@
 import Hero from '~/components/Hero'
 import Tab from '~/components/Tab'
 import Colaborated from '~/components/Colaborated'
+import ViewCryptos from '~/components/ViewCryptos'
 export default {
   components: {
     Hero,
     Tab,
-    Colaborated
+    Colaborated,
+    ViewCryptos
   },
 
   data() {
