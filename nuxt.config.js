@@ -16,10 +16,15 @@ export default {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Oxygen&display=swap",
       },
+      {
+        rel: "script",
+        href: "https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"
+
+      }
     ],
     bodyAttrs: {
-      class: 'has-background-grey has-navbar-fixed-top',
-      style: 'min-height: 100vh'
+      class: ' has-navbar-fixed-top'
+    
     }
   },
 
@@ -29,6 +34,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

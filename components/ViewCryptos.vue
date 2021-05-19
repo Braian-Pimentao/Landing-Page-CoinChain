@@ -1,5 +1,5 @@
 <template>
-    <div class="m-0 mt-6 p-2 has-background-white border">
+    <div class="position-z m-0 mt-6 p-2 has-background-white border">
         <div class="columns ">
             <div class="column">
                 <h1 class="center title is-1"><u>Visualizador de Criptomonedas</u></h1>
@@ -96,5 +96,9 @@ export default {
 <style>
 .border{
     border-radius: 10px;
+}
+
+.position-z{
+    z-index: 1;
 }
 </style>
